@@ -1,0 +1,66 @@
+/* Basic styling for the tags */
+.tag {
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+
+/* Styling for the name header */
+.tag-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(19, 183, 243);
+    padding: 3px;
+    margin: 5px;
+}
+
+.collapse-button {
+    margin-right: 5px; /* Add some space between collapse button and tag name */
+}
+
+/* Styling for the collapse/expand button */
+.collapse-button {
+    background-color: #c3c8c3;
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+    width: 3vw;
+    height: 3vh;
+    margin: 5px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+/* Styling for the "Add Child" button */
+.add-button {
+    background-color: #c3c8c3;
+    color: rgb(9, 9, 9);
+    border: 1px solid gray;
+    padding: 7px 16px;
+    cursor: pointer;
+    margin-left: auto
+}
+
+/* Styling for the text input */
+.tag-input {
+    display: none;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+div.tag{
+    background-color: rgb(232, 237, 239);
+}
+
+div.data-fixed{
+    display: inline-block;
+}
+
+input{
+    margin-left: 7px;
+}
+
+#exportButton {
+    padding: 7px 20px;
+}
